@@ -40,6 +40,11 @@ export const responses = [
     {
         keywords: ['javascript'],
         reply: "JavaScript is the language of the web. It runs in the browser and, with Node.js, on servers too."
+    },
+
+    {
+        keywords : ['nutan ', 'mayuri'],
+        reply : "Nutan is proportional to Newton and Mayuri is penctual and both are fighters"
     }
 ]
 
