@@ -9,6 +9,7 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Settings from './pages/Settings'
 import ChatProvider from './context/ChatContext'
+import Signup from './pages/Signup'
 
 function AppContent() {
   const {theme} = useContext(ThemeContext)
@@ -23,6 +24,7 @@ function AppContent() {
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/settings' element={<Settings />} />
+            <Route path='/signup' element={<Signup />} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -24,7 +24,7 @@ const Login = () => {
             <form className="form-card auth-card" onSubmit={handleSubmit(formSubmit)}>
                 <span className="welcome-logo"><i className="fa-solid fa-wand-magic-sparkles"></i></span>
                 <h2>Welcome back</h2>
-                <p className="auth-subtitle">Log in to continue to Nova AI</p>
+                <p className="auth-subtitle">Log in to continue to Maverick AI</p>
 
                 <div className="field">
                     <input
@@ -67,8 +67,12 @@ const Login = () => {
                 <button type="submit" className="primary-btn full-width">Log in</button>
 
                 <p className="auth-footer">
-                    Just looking around? <Link to="/home">Continue as guest</Link>
+                    Don't have an account? <Link to="/signup">Sign up</Link>
                 </p>
+                <p className="auth-footer">
+                    Just looking around? <Link to="/">Continue as guest</Link>
+                </p>
+
             </form>
         </div>
     )

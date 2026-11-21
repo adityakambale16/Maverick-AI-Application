@@ -9,7 +9,7 @@ const Contact = () => {
     } = useForm();
 
     const formSubmit = (data) => {
-        alert('Thanks' + data.name + '! Your message has been sent.')
+        alert('Thanks ' + data.name + '     ! Your message has been sent.')
         reset();
     }
 
@@ -18,9 +18,9 @@ const Contact = () => {
             <section className="info-page contact-layout">
                 <div className="contact-info">
                     <h1>Contact us</h1>
-                    <p>Have a question or feedback about Nova AI? Send us a message.</p>
+                    <p>Have a question or feedback about Maverick AI? Send us a message.</p>
 
-                    <p><i className="fa-solid fa-envelope"></i> hello@novaai.demo</p>
+                    <p><i className="fa-solid fa-envelope"></i> hello@maverickai.demo</p>
                     <p><i className="fa-solid fa-phone"></i> +91 98765 43210</p>
                     <p><i className="fa-solid fa-location-dot"></i> Pune, Maharashtra, India</p>
 
