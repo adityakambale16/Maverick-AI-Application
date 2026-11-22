@@ -43,8 +43,18 @@ export const responses = [
     },
 
     {
-        keywords : ['nutan ', 'mayuri'],
-        reply : "Nutan is proportional to Newton and Mayuri is penctual and both are fighters"
+        keywords : ['nutan'],
+        reply : "Nutan is comparable to Isaac Newton, a bookish girl with an exceptional ability to learn things quickly and strong enough to face any challenges that comes her way."
+    },
+
+    {
+        keywords : ['mayuri'],
+        reply : "Mayuri is clever enough to understand concepts from various chapters, and that ability is what sets her apart from others."
+    },
+
+    {
+        keywords : ['ali'],
+        reply : "Ali born with an exceptional mindset, he has the ability to adapt to anything remarkably quickly and his brain seems to work 130 times faster than that of an average human being."
     }
 ]
 

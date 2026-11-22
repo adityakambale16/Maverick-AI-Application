@@ -70,7 +70,7 @@ const Login = () => {
                     Don't have an account? <Link to="/signup">Sign up</Link>
                 </p>
                 <p className="auth-footer">
-                    Just looking around? <Link to="/">Continue as guest</Link>
+                    Just looking around? <Link to="/home">Continue as guest</Link>
                 </p>
 
             </form>
