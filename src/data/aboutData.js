@@ -1,8 +1,28 @@
 export const stats = [
-    { id: 1, icon: "fa-solid fa-comments", value: "5", label: "Suggested prompts" },
-    { id: 2, icon: "fa-solid fa-palette", value: "2", label: "Themes" },
-    { id: 3, icon: "fa-solid fa-layer-group", value: "6+", label: "React concepts" },
-    { id: 4, icon: "fa-solid fa-mobile-screen", value: "100%", label: "Responsive" }
+    { 
+        id: 1, 
+        icon: "fa-solid fa-comments", 
+        value: "5", 
+        label: "Suggested prompts" 
+    },
+    { 
+        id: 2, 
+        icon: "fa-solid fa-palette", 
+        value: "2", 
+        label: "Themes" 
+    },
+    { 
+        id: 3, 
+        icon: "fa-solid fa-layer-group", 
+        value: "6+", 
+        label: "React concepts" 
+    },
+    { 
+        id: 4, 
+        icon: "fa-solid fa-mobile-screen", 
+        value: "100%", 
+        label: "Responsive" 
+    }
 ]
 
 export const features = [
